@@ -35,15 +35,15 @@ def check_guess(guess, answer):
         print(space7*6 + "Incorrect!  The correct answer is \"" + answer + "\".\n\n" + divider)
 
 # Questions, choices and answers
-q_file = open("Python_1_Questions.txt")
-q_content = q_file.read()
-mc_file = open("Python_2_Choices.txt")
+q_file     = open("Python_1_Questions.txt")
+mc_file    = open("Python_2_Choices.txt")
+a_file     = open("Python_3_Answers.txt")
+q_content  = q_file.read()
 mc_content = mc_file.read()
-a_file = open("Python_3_Answers.txt")
-a_content = a_file.read()
-question = q_content.splitlines()
-choice = mc_content.splitlines()
-answer = a_content.splitlines()
+a_content  = a_file.read()
+question   = q_content.splitlines()
+choice     = mc_content.splitlines()
+answer     = a_content.splitlines()
 
 for i in range(len(question)):
    question_part =  space7*2 + question[i]                     + "\n\n"
