@@ -1,0 +1,3 @@
+Q.1  Is Dr. Ray the host of our Python Classes?
+Q.2  When will be our next Python Class?
+Q.3  ___________ (please type to answer) is the green animal used in Python coding. 
